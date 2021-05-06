@@ -41,7 +41,7 @@ netflix_liste = netflix[['originalTitle', 'title', 'startYear', 'runtimeMinutes'
 
 
 
-top_films = netflix_liste.sort_values('averageRating', ascending=False)
+top_films = netflix_liste.sort_values(['averageRating','numVotes'], ascending=(False,False))
 
 
 
