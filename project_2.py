@@ -16,7 +16,7 @@ from sklearn.impute import SimpleImputer, KNNImputer
 st.image('pellicule_film.jpg',width=600)
 
 
-netflix = pd.read_csv('C:/Users/antoi/Downloads/final_movies_DB_2.csv', header=0, sep=',', quotechar='"', error_bad_lines=False)
+netflix = pd.read_csv('final_movies_DB_2.csv', header=0, sep=',', quotechar='"', error_bad_lines=False)
 
 
 
