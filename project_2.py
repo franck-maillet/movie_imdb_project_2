@@ -48,12 +48,11 @@ for_show = top_films.head()
 
 
 
-
 st.write("Voici les films les mieux notés (sur la base imdb) :")
 
 
 
-st.write(for_show)
+st.write(for_show.assign(hack='').set_index('hack'))
 
 # On reduit la base pour permettre à l'algorithm une rapidité de calcul optimal
 netflix = netflix[(netflix["runtimeMinutes"] >= 80) &  
