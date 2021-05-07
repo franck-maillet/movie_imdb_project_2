@@ -12,6 +12,7 @@ from sklearn.compose import make_column_selector
 from sklearn.ensemble import VotingClassifier
 from sklearn.impute import SimpleImputer, KNNImputer
 
+st.beta_set_page_config(page_title='your_title', page_icon = favicon, layout = 'wide', initial_sidebar_state = 'auto')
 
 st.image('pellicule_film.jpg',width=600)
 
