@@ -1,4 +1,5 @@
 import streamlit as st
+st.beta_set_page_config(page_title='Guéret Ciné')
 # To make things easier later, we're also importing numpy and pandas for
 import pandas as pd
 import numpy as np
