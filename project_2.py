@@ -109,7 +109,7 @@ prop = prop[['title', 'originalTitle', 'startYear', 'runtimeMinutes', 'averageRa
 prop = prop.iloc[1:4,:]
 
 if st.checkbox(''):
-    st.write('... vous aimerez certainement : ', prop)
+    st.write('... vous aimerez certainement : ', prop.assign(hack='').set_index('hack'))
 
 
 
